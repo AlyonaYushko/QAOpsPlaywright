@@ -1,0 +1,10 @@
+[
+  'ADIDAS ORIGINAL',
+  'ZARA COAT 3',
+  'iphone 13 pro',
+  'car',
+  'iPhone QA Max',
+  '{{productName}}',
+  'Laptop',
+  'Laptop'
+]
