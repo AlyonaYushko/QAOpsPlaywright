@@ -42,8 +42,6 @@ test('Assgnment 1', async ({ page }) => {
 
     const targetedCard = eventCards.filter({ hasText: uniqueId });
     await expect(targetedCard, 5000).toBeVisible();
-
-
     // //works properly using arrays:
 
     // const eventCards = page.getByTestId('event-card');
@@ -96,8 +94,6 @@ test('Assgnment 1', async ({ page }) => {
     });
     await expect(targetedBookingCard).toBeVisible();
     await expect(targetedBookingCard).toContainText(uniqueId.toString());
-
-
     //Step 8 — Verify seat reduction
     await page.goto(`${BASE_URL}/events`);
     await expect(eventCards.first()).toBeVisible();
