@@ -77,6 +77,7 @@ test('Assgnment 3 Test2 — Banner is NOT visible when 4 events are returned', a
     await expect(banner).not.toBeVisible();
 });
 
+//loginAndGoToEvents function
 async function loginAndGoToEvents(page) {
     await page.goto(`${BASE_URL}/login`);
     await page.getByPlaceholder("you@email.com").fill(CREDENTIALS.email);
